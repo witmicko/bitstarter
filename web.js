@@ -12,6 +12,5 @@ app.listen(port, function() {
 });
 
 var fs = require('fs');
-var infile = "index.html";
-fs.readFileSync(infile);
+fs.readFileSync('index.html');
 console.log("Script: " + __filename + "\nWrote: " + out + "To: " + outfile);
